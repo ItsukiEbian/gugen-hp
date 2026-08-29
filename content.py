@@ -1,3 +1,5 @@
+# Publication dates are Asia/Tokyo calendar days from Office マーケ・広報 → 発信.
+# Store and display them as-is. Do not shift by UTC (gugen-hd.com currently shows +1 day).
 NEWS = [
     {"date": "2026.07.14", "cat": "INFO", "id": "info", "title": "Gugen株式会社を設立しました。", "img": "/images/news/3.webp"},
     {"date": "2026.06.01", "cat": "RELEASE", "id": "release", "title": "公式サイトに記事コンテンツ「Articles」を公開しました。事業の思想や現場の知見を発信していきます。", "img": ""},
@@ -138,10 +140,11 @@ WORKS = [
      "LP企画・デザイン／フロントエンド実装（レスポンシブ）／問い合わせフォーム・計測タグ設置", "#TypeScript #Next.js #React", "", "受託開発"),
 ]
 
+# 7 published Office 記事 only. Dates are Asia/Tokyo calendar days (not UTC).
 ARTICLES = [
     {
         "slug": "founder-note-incorporation",
-        "date": "2026.07.11",
+        "date": "2026.07.10",
         "cat": "FOUNDER NOTE",
         "min": "2 分",
         "title": "Gugen株式会社、設立しました。",
@@ -166,7 +169,7 @@ ARTICLES = [
     },
     {
         "slug": "ai-automation-case-before-after",
-        "date": "2026.05.27",
+        "date": "2026.05.26",
         "cat": "CASE STUDY",
         "min": "2 分",
         "title": "問い合わせ・事務作業をAIで自動化した現場の変化",
@@ -184,11 +187,12 @@ ARTICLES = [
 <p>もう一つの例は、月末に集中する事務作業だ。導入前は、複数のシステムからデータを集め、表に転記し、形式を整える作業に丸2日かかっていた。導入後は、データ収集と転記をAIが自動で行い、人は最終確認だけを担う。2日かかっていた作業は、数時間に縮んだ。</p>
 <h2>変化の本質は「時間の使い道」</h2>
 <p>これらの事例に共通するのは、人員削減ではない。同じ人が、より価値の高い仕事に時間を使えるようになったということだ。繰り返しはAIへ、判断は人へ。具現工房は、こうした現場の変化を、業務ヒアリングから設計・実装・運用まで一気通貫で支える。自社の業務でも同じことができるか知りたい方は、gugen-kobo.com から相談してほしい。</p>
+<blockquote>※本記事は公開当時のサービス名で記載しています。AI受託開発「具現工房」は、現在「Gugen AX」（AI導入の伴走・受託開発・顧問）として提供しています。</blockquote>
 """,
     },
     {
         "slug": "ai-narrativist-2026-05",
-        "date": "2026.05.23",
+        "date": "2026.05.22",
         "cat": "VISION",
         "min": "2 分",
         "title": "AIに、仕事を。人に、意志を。— カルチャー宣言の背景",
@@ -210,7 +214,7 @@ ARTICLES = [
     },
     {
         "slug": "ai-agent-business-2026",
-        "date": "2026.05.20",
+        "date": "2026.05.19",
         "cat": "VISION",
         "min": "2 分",
         "title": "2026年、業務で本当に使えるAIエージェントの最前線",
@@ -233,11 +237,12 @@ ARTICLES = [
 <blockquote>問いは『AIに任せられるか』ではなく『どこを人が握るか』。分業の設計が、成果を分ける。</blockquote>
 <h2>道具ではなく、業務設計の問題</h2>
 <p>エージェントの導入でつまずく企業の多くは、ツール選びの問題だと考えている。だが本当の難所は、自社の業務をどう切り分け、どこをエージェントに、どこを人に割り当てるかという設計にある。Gugenは、この業務設計そのものを支える。AIエージェントを業務に組み込みたい企業は、具現工房（gugen-kobo.com）から相談してほしい。最新の動向は、Gugen Labの『朝AIニュース』でも毎日追える。</p>
+<blockquote>※本記事は公開当時のサービス名で記載しています。AI受託開発「具現工房」は、現在「Gugen AX」（AI導入の伴走・受託開発・顧問）として提供しています。</blockquote>
 """,
     },
     {
         "slug": "protocolize-contract-dev",
-        "date": "2026.05.16",
+        "date": "2026.05.15",
         "cat": "ENGINEERING",
         "min": "2 分",
         "title": "受託開発を“プロトコル化”するということ",
@@ -266,7 +271,7 @@ ARTICLES = [
     },
     {
         "slug": "gugen-lab-vision",
-        "date": "2026.05.02",
+        "date": "2026.05.01",
         "cat": "COMMUNITY",
         "min": "2 分",
         "title": "Gugen Lab が目指す学生・若手コミュニティ",
@@ -287,7 +292,7 @@ ARTICLES = [
     },
     {
         "slug": "the-egg-prototype-v1",
-        "date": "2026.04.20",
+        "date": "2026.04.19",
         "cat": "CASE STUDY",
         "min": "2 分",
         "title": "The EGG プロトタイプv1 から見えたもの",
