@@ -948,7 +948,6 @@ def article_page(a):
 <p><a href="/articles/">←記事一覧へ</a></p>
 <p>{a["date"]}　{a["cat"]}　{a["min"]}<br>by {a["author"]}</p>
 {img}
-<p>{a["lead"]}</p>
 {a["body"]}
 <h2>他の記事を読む</h2>
 <ul>{"".join(others)}</ul>
